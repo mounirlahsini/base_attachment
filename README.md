@@ -15,6 +15,6 @@ attachment_ids = fields.One2many( comodel_name='max.base.multi.attachment', inve
 
 Add fields to your module View :
 --------------------------------
-<field name="attachment_ids" context="{'default_owner_model': 'your.model.name', 'default_owner_id': id, 'default_owner_field': 'attachment_ids',}"/>
+#<field name="attachment_ids" context="{'default_owner_model': 'your.model.name', 'default_owner_id': id, 'default_owner_field': 'attachment_ids',}"/>
 
 
