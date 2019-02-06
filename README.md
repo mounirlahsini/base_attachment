@@ -1,9 +1,8 @@
-Module Base Attachment
-----------------------
-
+# Module Base Attachment
 
 Add dependency of the module Base Attachment in your module __manifest__.py file :
 ----------------------------------------------------------------------------------
+
 'depends': ['base', 'base_attachment'],
 
 
@@ -15,7 +14,7 @@ attachment_ids = fields.One2many( comodel_name='max.base.multi.attachment', inve
 
 Add fields to your module View :
 --------------------------------
-# <field name="attachment_ids" context="{'default_owner_model': 'your.model.name', 'default_owner_id': id,
-# 'default_owner_field': 'attachment_ids',}"/>
+
+<field name="attachment_ids" context="{'default_owner_model': 'your.model.name', 'default_owner_id': id,'default_owner_field': 'attachment_ids',}"/>
 
 
